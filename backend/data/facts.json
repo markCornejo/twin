@@ -1,0 +1,21 @@
+{
+  "full_name": "Mark Saulo Cornejo Bonifacio",
+  "name": "Mark",
+  "current_role": "Ingeniero de Sistemas / Software Developer Senior / Tech Lead",
+  "location": "Tlaxcala, México",
+  "email": "Mark.cornejo.b@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mark-cornejo-05336a6b",
+  "specialties": [
+    "Arquitectura de software y diseño de sistemas",
+    "Desarrollo Full Stack y Backend",
+    "Cloud, microservicios, automatización e inteligencia artificial"
+  ],
+  "years_experience": 10,
+  "education": [
+    {
+      "degree": "Ingeniería de Sistemas e Informática",
+      "institution": "Universidad Nacional Mayor de San Marcos",
+      "year": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Soy Ingeniero de Sistemas, Software Developer Senior y Tech Lead con más de 12 años de experiencia en desarrollo de software, arquitectura de sistemas, plataformas transaccionales y soluciones digitales de alta concurrencia.
+
+Mis principales competencias son arquitectura de software y diseño de sistemas, desarrollo backend y full stack, sistemas distribuidos, microservicios, APIs REST, optimización de rendimiento, control de concurrencia, procesamiento transaccional, integración de pagos, bases de datos SQL y NoSQL, infraestructura cloud, automatización e integración de inteligencia artificial.
+
+Actualmente, me centro en profundizar en arquitectura de software moderna, microservicios, Domain-Driven Design, CQRS, Event-Driven Architecture, CI/CD y soluciones cloud sobre AWS y Google Cloud. También estoy desarrollando conocimientos y proyectos relacionados con automatización mediante inteligencia artificial, agentes de IA, LLMs, n8n y plataformas SaaS orientadas a resolver procesos reales de negocio.
+
+Mi trayectoria incluye el liderazgo técnico y evolución arquitectónica de TicketApp, una plataforma de ticketing para eventos de alta concurrencia, donde trabajé en separación de dominios, control de concurrencia con Redis, idempotencia en pagos, integración con múltiples pasarelas, microservicios y arquitectura cloud. También diseñé TokenBar, una plataforma cashless basada en wallets QR y procesamiento de transacciones en tiempo real, y participé en el desarrollo de MasMesa, una plataforma SaaS multi-tenant de reservas para restaurantes con disponibilidad en tiempo real, WebSockets, Redis e integración con Google Reserve.
+
+Además, he trabajado en sistemas de ecommerce y facturación electrónica, integraciones SOAP/XML, automatización de comunicaciones mediante WhatsApp y Twilio, procesamiento asíncrono mediante jobs y queues, optimización de consultas SQL, sincronización entre MySQL y MongoDB, infraestructura Linux y soluciones de inteligencia artificial orientadas a automatizar la atención al cliente y analizar conversaciones.
+
+A lo largo de mi carrera he combinado desarrollo de software con diseño arquitectónico, liderazgo técnico y entendimiento del negocio, buscando construir sistemas escalables, mantenibles y preparados para escenarios reales de producción.
