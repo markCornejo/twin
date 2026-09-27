@@ -28,6 +28,24 @@ jobs:
     steps:
       - name: Clonar el código
         uses: actions/checkout@v4
+      
+      - name: Consultar identidad OIDC
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const token = await core.getIDToken('sts.amazonaws.com');
+            core.setSecret(token);
+
+            const payload = JSON.parse(
+              Buffer.from(token.split('.')[1], 'base64url').toString('utf8')
+            );
+
+            console.log(JSON.stringify({
+              sub: payload.sub,
+              aud: payload.aud,
+              repository: payload.repository,
+              environment: payload.environment
+            }, null, 2));
 
       - name: Configurar credenciales AWS
         uses: aws-actions/configure-aws-credentials@v4
@@ -39,7 +57,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.14'
 
       - name: Instalar uv
         run: |
